@@ -11,15 +11,12 @@
 #include <stdlib.h>
 // Framework headers
 // Library headers
-#include "RF24Network_config.h"
 #include "RF24Network.h"
 // Project headers
 // This component's header
 #include "Sync.h"
 
 /****************************************************************************/
-// FIXME
-#define IF_SERIAL_DEBUG(...)
 
 void Sync::update(void)
 {
